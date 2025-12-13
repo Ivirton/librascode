@@ -1,0 +1,82 @@
+body {
+  background: #f8f9fa;
+}
+
+.hero {
+  background: linear-gradient(120deg, #0f172a, #0d9488);
+  padding: 80px 20px;
+}
+
+.search-input {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.card-sinal {
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 16px;
+}
+
+.card-sinal:hover {
+  transform: translateY(-5px);
+}
+
+.icon-circle {
+  width: 80px;
+  height: 80px;
+  background: #d1fae5;
+  border-radius: 50%;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+/* TOPO */
+.top-bar {
+  background: linear-gradient(120deg, #0f172a, #0d9488);
+  padding: 15px 30px;
+}
+
+/* CAIXA DE MÍDIA */
+.media-box {
+  background: #f8fafc;
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
+  position: relative;
+}
+
+.media-img {
+  width: 200px;
+  height: 200px;
+  background: #ccfbf1;
+  padding: 30px;
+}
+
+/* BADGE */
+.badge-category {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: #fde68a;
+  color: #92400e;
+}
+
+/* BOX DE INFORMAÇÕES */
+.info-box {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.info-green {
+  background: #ecfeff;
+}
+
+.info-yellow {
+  background: #fffbeb;
+}

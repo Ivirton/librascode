@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Sinal | LibrasCode</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Ícones -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- TOPO -->
+<header class="top-bar text-white">
+  <a href="index.html" class="btn btn-link text-white">
+    <i class="bi bi-arrow-left"></i> Voltar
+  </a>
+</header>
+
+<!-- CONTEÚDO -->
+<section class="container my-5">
+  <div class="row">
+
+    <!-- ILUSTRAÇÃO / VÍDEO -->
+    <div class="col-md-6">
+      <div class="media-box">
+        <span id="categoriaBadge" class="badge badge-category">Hardware</span>
+
+        <!-- IMAGEM TEMPORÁRIA -->
+        <img id="mediaImagem" src="assets/images/educom_libras.gif" alt="Sinal"
+          class="img-fluid rounded-circle media-img">
+
+        <!-- Quando tiver vídeo, usar esse bloco -->
+        <!--
+        <video controls class="media-video">
+          <source src="assets/videos/sinais/computador.mp4" type="video/mp4">
+        </video>
+        -->
+
+        <p class="text-muted mt-3 text-center">Ilustração em breve</p>
+      </div>
+    </div>
+
+    <!-- INFORMAÇÕES -->
+    <div class="col-md-6">
+      <h1 id="nomeSinal">Computador</h1>
+      <p class="text-muted" id="nomeIngles">Computer</p>
+
+      <!-- DESCRIÇÃO -->
+      <div class="info-box">
+        <h5>Descrição</h5>
+        <p id="descricao"></p>
+      </div>
+
+      <!-- COMO FAZER -->
+      <div class="info-box info-green">
+        <h5><i class="bi bi-hand-index"></i> Como fazer o sinal</h5>
+        <p id="comoFazer"></p>
+      </div>
+
+      <!-- CURIOSIDADE -->
+      <div class="info-box info-yellow">
+        <h5><i class="bi bi-lightbulb"></i> Curiosidade</h5>
+        <p id="curiosidade"></p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- RELACIONADOS -->
+  <div class="mt-5">
+    <h4>Sinais relacionados</h4>
+    <div class="row" id="relacionados"></div>
+  </div>
+
+</section>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/sinal.js"></script>
+</body>
+</html>
