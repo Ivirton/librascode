@@ -8,7 +8,7 @@ const sinais = [
     comoFazer: "Movimentos alternados com os dedos simulando digitação.",
     curiosidade: "Representa o ato de digitar no teclado.",
     imagem: "assets/images/educom_libras.gif",
-    video: ""
+    video: "assets/videos/exemplo.mp4"
   },
   {
     id: 2,
@@ -18,6 +18,6 @@ const sinais = [
     comoFazer: "Movimento sequencial com a mão.",
     curiosidade: "Mostra ordem lógica.",
     imagem: "assets/images/educom_libras.gif    ",
-    video: ""
+    video: "assets/videos/exemplo.mp4"
   }
 ];

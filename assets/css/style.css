@@ -3,7 +3,8 @@ body {
 }
 
 .hero {
-  background: linear-gradient(120deg, #0f172a, #0d9488);
+  
+  background-image: url('../images/banner.png');
   padding: 80px 20px;
 }
 
@@ -79,4 +80,124 @@ body {
 
 .info-yellow {
   background: #fffbeb;
+}
+/* TOPO */
+.hero {
+  background: linear-gradient(120deg, #0f172a, #0d9488);
+  padding: 80px 20px;
+  position: relative;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  z-index: 1;
+}
+
+.hero-image img {
+  max-width: 150px; /* Ajuste para a imagem não ocupar muito espaço */
+}
+
+.search-input {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+/* CARDS */
+.card-sinal {
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card-sinal:hover {
+  transform: translateY(-5px);
+}
+
+.card-sinal .card-body {
+  position: relative;
+}
+
+.card-sinal .media-video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.icon-circle {
+  width: 80px;
+  height: 80px;
+  background: #d1fae5;
+  border-radius: 50%;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+/* BOTÕES DE FILTRO */
+.filter-btn {
+  border-radius: 999px;
+  padding: 10px 22px;
+  font-weight: 500;
+  margin: 6px;
+  transition: all 0.25s ease;
+}
+
+.filter-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.filter-btn:focus {
+  box-shadow: none;
+}
+/* ÍCONE DOS CARDS */
+.icon-circle {
+  width: 72px;
+  height: 72px;
+  background: linear-gradient(135deg, #d1fae5, #99f6e4);
+  border-radius: 50%;
+  font-size: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+.card-sinal {
+  border: none;
+  border-radius: 18px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+.card-sinal:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.12);
+}
+.media-video {
+  width: 100%;
+  border-radius: 14px;
+  margin-top: 10px;
+}
+@media (max-width: 768px) {
+  .icon-circle {
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+  }
+
+  .hero {
+    padding: 70px 16px;
+  }
 }
