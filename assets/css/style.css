@@ -201,3 +201,143 @@ body {
     padding: 70px 16px;
   }
 }
+/* RESET LEVE */
+body {
+  background-color: #f7f9fb;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* HERO */
+.hero {
+  min-height: 60vh;
+  background: linear-gradient(135deg, #0f172a, #0d9488);
+  display: flex;
+  align-items: center;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.hero-title span {
+  color: #38bdf8;
+}
+
+.hero-subtitle {
+  opacity: 0.9;
+  margin-bottom: 30px;
+}
+
+.badge-hero {
+  background: rgba(255,255,255,0.15);
+  padding: 8px 14px;
+  border-radius: 20px;
+}
+
+/* BUSCA */
+.search-box {
+  max-width: 420px;
+  position: relative;
+}
+
+.search-box i {
+  position: absolute;
+  top: 50%;
+  left: 14px;
+  transform: translateY(-50%);
+  color: #999;
+}
+
+.search-box input {
+  padding-left: 42px;
+  border-radius: 30px;
+  border: none;
+  height: 46px;
+}
+
+ /* =====================
+       FILTROS
+    ====================== */
+    .filter-group {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .filter-chip {
+      border: 1px solid #0d9488;
+      padding: 8px 20px;
+      border-radius: 50px;
+      background: transparent;
+      color: #0d9488;
+      transition: all 0.3s;
+    }
+
+    .filter-chip.active,
+    .filter-chip:hover {
+      background: #0d9488;
+      color: #fff;
+    }
+
+    /* =====================
+       FOOTER
+    ====================== */
+    .footer {
+      background: #0f172a;
+      color: #cbd5e1;
+      padding: 50px 0 20px;
+    }
+
+    .footer h5 {
+      color: #fff;
+      margin-bottom: 15px;
+    }
+
+    .footer-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer-list li {
+      margin-bottom: 8px;
+    }
+
+    .footer-divider {
+      border-color: rgba(255,255,255,0.1);
+    }
+
+    .footer-bottom {
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+    
+     /* =====================
+       PARTÍCULAS
+    ====================== */
+    #particles {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      overflow: hidden;
+    }
+
+    .particle {
+      position: absolute;
+      background: rgba(255,255,255,0.25);
+      border-radius: 50%;
+      animation: float linear infinite;
+    }
+
+    @keyframes float {
+      from {
+        transform: translateY(100vh) translateX(0);
+        opacity: 0;
+      }
+      10% { opacity: 0.4; }
+      to {
+        transform: translateY(-10vh) translateX(50px);
+        opacity: 0;
+      }
+    }
