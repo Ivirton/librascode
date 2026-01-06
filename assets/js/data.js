@@ -8,7 +8,7 @@ const sinais = [
     comoFazer: "Movimento de guardar algo para trás, indicando proteção.",
     curiosidade: "Muito usado em contextos de segurança da informação.",
     imagem: "assets/images/backup.gif",
-    video: "https://www.youtube.com/watch?v=N2-SEMm_VO0"
+    video: "assets/videos/sinais/Backup.mp4"
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const sinais = [
     comoFazer: "Movimento da mão de cima para baixo.",
     curiosidade: "Representa trazer algo para si.",
     imagem: "assets/images/download.gif",
-    video: "https://www.youtube.com/watch?v=N2-SEMm_VO0"
+    video: "assets/videos/sinais/Download.mp4"
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const sinais = [
     comoFazer: "Movimento da mão de baixo para cima.",
     curiosidade: "É o oposto do download.",
     imagem: "assets/images/upload.gif",
-    video: "https://www.youtube.com/watch?v=N2-SEMm_VO0"
+    video: "assets/videos/sinais/Upload.mp4"
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ const sinais = [
     comoFazer: "Sinal que representa pesquisa.",
     curiosidade: "É o buscador mais utilizado no mundo.",
     imagem: "assets/images/google.gif",
-    video: "https://www.youtube.com/watch?v=N2-SEMm_VO0"
+    video: "assets/videos/sinais/Google.mp4"
   },
   {
     id: 5,
@@ -48,7 +48,7 @@ const sinais = [
     comoFazer: "Sinal relacionado ao Google seguido de navegação.",
     curiosidade: "Um dos navegadores mais usados.",
     imagem: "assets/images/chrome.gif",
-    video: "https://www.youtube.com/watch?v=N2-SEMm_VO0"
+    video: "assets/videos/sinais/Chrome.mp4"
   },
   {
     id: 6,
@@ -58,7 +58,7 @@ const sinais = [
     comoFazer: "Movimento que indica invasão ou quebra.",
     curiosidade: "Nem todo hacker atua de forma ilegal.",
     imagem: "assets/images/hacker.gif",
-    video: "https://www.youtube.com/watch?v=N2-SEMm_VO0"
+    video: "assets/videos/sinais/Hacker.mp4"
   },
   {
     id: 7,
@@ -68,7 +68,7 @@ const sinais = [
     comoFazer: "Sinal indicando algo concreto ou físico.",
     curiosidade: "Inclui peças como placa-mãe e processador.",
     imagem: "assets/images/hardware.gif",
-    video: "https://www.youtube.com/watch?v=N2-SEMm_VO0"
+    video: "assets/videos/sinais/Hardware.mp4"
   },
   {
     id: 8,
@@ -78,7 +78,7 @@ const sinais = [
     comoFazer: "Sinal de HD com movimento externo.",
     curiosidade: "Usado para backup de dados.",
     imagem: "assets/images/hd_externo.gif",
-    video: "https://www.youtube.com/watch?v=N2-SEMm_VO0"
+    video: "assets/videos/sinais/HdExterno.mp4"
   },
   {
     id: 9,
@@ -88,7 +88,7 @@ const sinais = [
     comoFazer: "Sinal específico para Linux.",
     curiosidade: "Muito usado em servidores.",
     imagem: "assets/images/linux.gif",
-    video: "https://www.youtube.com/watch?v=N2-SEMm_VO0"
+    video: "assets/videos/sinais/Linux.mp4"
   },
   {
     id: 10,
@@ -98,7 +98,7 @@ const sinais = [
     comoFazer: "Sinal representando janelas.",
     curiosidade: "Amplamente usado em computadores pessoais.",
     imagem: "assets/images/windows.gif",
-    video: "https://www.youtube.com/watch?v=N2-SEMm_VO0"
+    video: "assets/videos/sinais/Windows.mp4"
   },
   {
     id: 11,
@@ -108,7 +108,7 @@ const sinais = [
     comoFazer: "Sinal associado à marca.",
     curiosidade: "Criadora do iPhone e Mac.",
     imagem: "assets/images/apple.gif",
-    video: "https://www.youtube.com/watch?v=N2-SEMm_VO0"
+    video: "assets/videos/sinais/Mac.mp4"
   },
   {
     id: 12,
@@ -118,7 +118,7 @@ const sinais = [
     comoFazer: "Sinal que indica guardar informação.",
     curiosidade: "Essencial para desempenho do sistema.",
     imagem: "assets/images/memoria.gif",
-    video: "https://www.youtube.com/watch?v=N2-SEMm_VO0"
+    video: "assets/videos/sinais/Memoria.mp4"
   },
   {
     id: 13,
@@ -128,7 +128,7 @@ const sinais = [
     comoFazer: "Movimento de conectar algo pequeno.",
     curiosidade: "Utiliza tecnologia USB.",
     imagem: "assets/images/pendrive.gif",
-    video: "https://www.youtube.com/watch?v=N2-SEMm_VO0"
+    video: "assets/videos/sinais/Pendrive.mp4"
   },
   {
     id: 14,
@@ -138,7 +138,7 @@ const sinais = [
     comoFazer: "Sinal de base ou estrutura.",
     curiosidade: "Responsável pela comunicação dos componentes.",
     imagem: "assets/images/placa_mae.gif",
-    video: "https://www.youtube.com/watch?v=N2-SEMm_VO0"
+    video: "assets/videos/sinais/Placa.mp4"
   },
   {
     id: 15,
@@ -148,7 +148,7 @@ const sinais = [
     comoFazer: "Sinal que indica pensamento ou cálculo.",
     curiosidade: "Conhecido como o cérebro do computador.",
     imagem: "assets/images/processador.gif",
-    video: "https://www.youtube.com/watch?v=N2-SEMm_VO0"
+    video: "assets/videos/sinais/Processador.mp4"
   },
   {
     id: 16,
@@ -158,86 +158,76 @@ const sinais = [
     comoFazer: "Sinal circular indicando o símbolo.",
     curiosidade: "Muito usado em endereços eletrônicos.",
     imagem: "assets/images/arroba.gif",
-    video: "https://www.youtube.com/watch?v=N2-SEMm_VO0"
+    video: "assets/videos/sinais/Arroba.mp4"
   },
   {
     id: 17,
-    nome: "Site",
-    categoria: "Internet",
-    descricao: "Conjunto de páginas disponíveis na web.",
-    comoFazer: "Movimento indicando navegação.",
-    curiosidade: "Pode ser estático ou dinâmico.",
-    imagem: "assets/images/site.gif",
-    video: "https://www.youtube.com/watch?v=N2-SEMm_VO0"
-  },
-  {
-    id: 18,
     nome: "Software",
     categoria: "Software",
     descricao: "Parte lógica do computador, composta por programas.",
     comoFazer: "Sinal relacionado a programa.",
     curiosidade: "Pode ser livre ou proprietário.",
     imagem: "assets/images/software.gif",
-    video: "https://www.youtube.com/watch?v=N2-SEMm_VO0"
+    video: "assets/videos/sinais/Software.mp4"
   },
   {
-    id: 19,
+    id: 18,
     nome: "Vírus",
     categoria: "Segurança",
     descricao: "Programa malicioso que pode causar danos ao sistema.",
     comoFazer: "Movimento que indica contaminação.",
     curiosidade: "Pode roubar dados ou danificar arquivos.",
     imagem: "assets/images/virus.gif",
-    video: "https://www.youtube.com/watch?v=N2-SEMm_VO0"
+    video: "assets/videos/sinais/Virus.mp4"
   },
   {
-    id: 20,
+    id: 19,
     nome: "USB",
     categoria: "Hardware",
     descricao: "Padrão de conexão para dispositivos.",
     comoFazer: "Movimento de encaixe.",
     curiosidade: "Usado em pendrives e periféricos.",
     imagem: "assets/images/usb.gif",
-    video: "https://www.youtube.com/watch?v=N2-SEMm_VO0"
+    video: "assets/videos/sinais/Usb.mp4"
   },
   {
-    id: 21,
+    id: 20,
     nome: "Webcam",
     categoria: "Hardware",
     descricao: "Câmera utilizada para captura de imagem e vídeo.",
     comoFazer: "Sinal indicando câmera.",
     curiosidade: "Muito usada em videoconferências.",
     imagem: "assets/images/webcam.gif",
-    video: "https://www.youtube.com/watch?v=N2-SEMm_VO0"
+    video: "assets/videos/sinais/Webcam.mp4"
   },
   {
-    id: 22,
+    id: 21,
     nome: "Excel",
     categoria: "Software",
     descricao: "Programa de planilhas eletrônicas.",
     comoFazer: "Sinal associado a tabelas.",
     curiosidade: "Muito usado para cálculos.",
     imagem: "assets/images/excel.gif",
-    video: "https://www.youtube.com/watch?v=h2xYqTyS2WI"
+    video: "assets/videos/sinais/Excel.mp4"
   },
   {
-    id: 23,
+    id: 22,
     nome: "Word",
     categoria: "Software",
     descricao: "Editor de textos da Microsoft.",
     comoFazer: "Sinal de escrita.",
     curiosidade: "Usado para criação de documentos.",
     imagem: "assets/images/word.gif",
-    video: "https://www.youtube.com/watch?v=h2xYqTyS2WI"
+    video: "assets/videos/sinais/Word.mp4"
   },
   {
-    id: 24,
+    id: 23,
     nome: "Java",
     categoria: "Programação",
     descricao: "Linguagem de programação amplamente utilizada.",
     comoFazer: "Sinal específico para Java.",
     curiosidade: "Muito usada no desenvolvimento de sistemas.",
     imagem: "assets/images/java.gif",
-    video: "https://www.youtube.com/watch?v=h2xYqTyS2WI"
+    video: "assets/videos/sinais/Java.mp4"
   }
 ];
