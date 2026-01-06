@@ -312,32 +312,3 @@ body {
       font-size: 0.9rem;
       opacity: 0.8;
     }
-    
-     /* =====================
-       PARTÍCULAS
-    ====================== */
-    #particles {
-      position: absolute;
-      inset: 0;
-      z-index: 1;
-      overflow: hidden;
-    }
-
-    .particle {
-      position: absolute;
-      background: rgba(255,255,255,0.25);
-      border-radius: 50%;
-      animation: float linear infinite;
-    }
-
-    @keyframes float {
-      from {
-        transform: translateY(100vh) translateX(0);
-        opacity: 0;
-      }
-      10% { opacity: 0.4; }
-      to {
-        transform: translateY(-10vh) translateX(50px);
-        opacity: 0;
-      }
-    }
